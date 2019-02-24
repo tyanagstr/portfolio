@@ -67,4 +67,11 @@ main {
 /* works */
 
 /* about */
- 
+
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: gray;
+}
