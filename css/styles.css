@@ -19,3 +19,52 @@ body {
   display: flex;
   justify-content: flex-start;
 }
+
+/* header */
+
+header .links__list {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+header .links__list__item {
+  display: inline-block;
+  background-color: #d6d6d6;
+  text-align: center;
+  padding: auto;
+  flex-grow: 1;
+}
+
+header .links__list__item a {
+  text-decoration: none;
+  font-size: 2.0rem;
+  color: inherit;
+}
+
+header .links__list__item:hover {
+  opacity: 0.8;
+}
+
+/* main */
+
+main {
+  text-align: center;
+}
+
+/* intro */
+
+/* skills */
+
+.skills {
+  width: 10rem;
+  margin: 1.0rem auto;
+}
+.skills .langs .flex {
+  flex-wrap: wrap;
+}
+
+/* works */
+
+/* about */
+ 
