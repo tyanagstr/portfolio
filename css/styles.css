@@ -1,0 +1,21 @@
+/* styles.css
+ * auther: tyanagstr
+ */
+
+/* 基本スタイル */
+
+html{
+  font-size: 62.5%;
+}
+ 
+body {
+  color: #222233;
+  font-family: "Yu Gothic", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
