@@ -129,6 +129,7 @@ main {
   box-shadow: 0 0 1rem gray;
   width: 30%;
   margin: 1rem;
+  padding: 0 1rem;
 }
 
 /* works */
