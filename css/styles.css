@@ -137,6 +137,10 @@ main {
   text-align: center;
 }
 
+.work {
+  overflow: hidden;
+}
+
 .work img {
   width: 50%;
 }
