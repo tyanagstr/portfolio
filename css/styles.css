@@ -55,6 +55,10 @@ nav .links__list__item {
   flex-grow: 1;
 }
 
+nav .links__list__item:not(:last-child) {
+  border-right: 2px dashed darkgray;
+}
+
 nav .links__list__item a {
   display: block;
   text-decoration: none;
@@ -211,6 +215,3 @@ footer {
 }
 
 /* media query */
-
-@media screen and (max-width: 960px) {
-}
