@@ -88,10 +88,19 @@ main {
 
 /* intro */
 
-.intro img {
+.intro .portrait {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
   border: 5px solid white;
   border-radius: 50%;
   box-shadow: 0 0 5px gray; 
+}
+
+.intro img {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem auto;
 }
 
 /* skills */
