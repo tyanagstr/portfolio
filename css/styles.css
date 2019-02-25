@@ -164,6 +164,16 @@ main {
   display: inline-block;
 }
 
+.about a {
+  text-decoration: none;
+}
+
+.about img {
+  display: inline-block;
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
 /* footer */
 
 footer {
