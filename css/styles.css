@@ -22,16 +22,21 @@ body {
 
 .section-title {
   text-align: center;
-  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  font-size: 2.0rem;
+}
+
+section {
+  margin: 5rem 0;
 }
 
 h1 {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
   font-weight: normal;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: normal;
 }
 
@@ -66,7 +71,7 @@ nav .links__list__item:hover {
 /* header */
 
 header {
-  margin: 3rem; 2rem 3rem;
+  margin: 3rem 2rem 3rem;
 }
 
 header h1 {
@@ -77,7 +82,7 @@ header h1 {
 
 main {
   text-align: center;
-  width: 90vh;
+  width: 90vw;
   margin: 5rem auto;
 }
 
@@ -93,7 +98,7 @@ main {
 
 .skills {
   width: 100%; 
-  margin: 1.0rem auto;
+  margin: 2rem auto;
 }
 
 .langs.flex {
@@ -115,12 +120,59 @@ main {
 
 /* works */
 
+.works {
+  text-align: left;
+}
+
+.works h1 {
+  text-align: center;
+}
+
+.work img {
+  width: 50%;
+}
+
+.work:not(:last-child) {
+  margin-bottom: 6rem;
+}
+
+.desc {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.work:nth-of-type(odd) .desc {
+  float: left;
+  padding-right: 3rem;
+}
+
+.work:nth-of-type(even) .desc {
+  float: right;
+  padding-left: 3rem;
+}
+
+
 /* about */
 
+.about ul {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.about li {
+  display: inline-block;
+}
 
 /* footer */
 
 footer {
   text-align: center;
   color: gray;
+  margin: 3rem 0;
+}
+
+/* media query */
+
+@media screen and (max-width: 960px) {
 }
